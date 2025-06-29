@@ -20,8 +20,8 @@ const setting = {
   devPort: '81',
   //版本号
   version: process.env.VUE_APP_VERSION,
-  //这一项非常重要！请务必保留MIT协议下package.json及copyright作者信息 即可免费商用，不遵守此项约定你将无法使用该框架，如需自定义版权信息请联系QQ1204505056
-  copyright: 'vab',
+  //copyright
+  copyright: 'zxwk1998',
   //是否显示页面底部自定义版权信息
   footerCopyright: true,
   //是否显示顶部进度条
@@ -45,7 +45,7 @@ const setting = {
   //是否显示logo，不显示时设置false，显示时请填写remixIcon图标名称，暂时只支持设置remixIcon
   logo: 'vuejs-fill',
   //是否显示在页面高亮错误
-  errorLog: ['development', 'production'],
+  errorLog: ['development'],
   //是否开启登录拦截
   loginInterception: true,
   //是否开启登录RSA加密
